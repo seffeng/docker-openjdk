@@ -2,17 +2,16 @@
 
 ## 版本
 
-* [openjdk-21 , openjdk-21.0.2 , latest](https://github.com/seffeng/docker-openjdk/tree/21.x)
 * [openjdk-11 , openjdk-11.0.22](https://github.com/seffeng/docker-openjdk/tree/11.x)
 
 ## 常用命令：
 
 ```sh
 # 拉取镜像
-$ docker pull seffeng/openjdk
+$ docker pull seffeng/openjdk:11
 
 # 运行
-$ docker run --name test -id seffeng/openjdk
+$ docker run --name test -id seffeng/openjdk:11
 
 # 查看正在运行的容器
 $ docker ps
